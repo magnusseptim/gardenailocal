@@ -4,7 +4,8 @@
 
 # 🌱 GardenaiLocal
 
-**GardenaiLocal** is an AI-powered gardening assistant for your desktop or server, running fully on your local PC—no API keys required!  
+**GardenaiLocal** is an AI-powered gardening assistant for your desktop or server, running fully on your local PC.
+
 It helps you with planting, garden planning, care advice, and weather information by combining local LLMs (via Ollama), real-time weather, and plant knowledge from Wikipedia.
 
 - 🌱 **Ask any gardening question**—from “When to plant tomatoes in London?” to “Why are my cucumber leaves yellow?”
