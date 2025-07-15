@@ -68,3 +68,10 @@ To stop Ollama if running as a service:
 Contributions, feature requests, and bug reports are welcome!
 
 Open an issue or submit a pull request.
+
+## Attribution
+
+- Plant encyclopedia content is sourced from [Wikipedia](https://www.wikipedia.org/) (CC BY-SA 4.0).
+- Weather data provided by [Open-Meteo.com](https://open-meteo.com/).
+- Local LLMs provided by [Ollama](https://ollama.com/), using [Llama3](https://llama.meta.com/) and [Mistral](https://mistral.ai/) models.
+
