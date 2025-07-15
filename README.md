@@ -25,22 +25,19 @@ It helps you with planting, garden planning, care advice, and weather informatio
 
 ## Quickstart
 
-1. **Download the release zip or build from source:**
-   - Self-contained binary + `run_gardenai.sh` script
-
-2. **(Optional) Make executable:**  
-chmod +x run_gardenai.sh GardenaiLocal
-
-markdown
-Copy
-Edit
+1. **Build from source self contained:**
+```
+dotnet publish -c Release -r linux-x64 --self-contained true -p:PublishSingleFile=true -o publish/
+```
+3. **(Optional) Make executable:**
+```
+chmod +x run_gardenai.sh
+```
 
 3. **Run the setup script:**  
+```
 ./run_gardenai.sh
-
-markdown
-Copy
-Edit
+```
 
 4. **Ask your gardening questions!**
 
