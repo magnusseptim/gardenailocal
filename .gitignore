@@ -1,0 +1,70 @@
+# .NET and C# build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+TestResults/
+*.ncb
+*.cache
+*.pdb
+*.mdb
+*.dbmdl
+
+# VS Code settings
+.vscode/
+.history/
+
+# Rider/JetBrains
+.idea/
+*.sln.iml
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Publish folder (if you don't want to include binaries)
+publish/
+artifacts/
+
+# Self-contained executables and scripts
+GardenaiLocal
+GardenaiLocal.exe
+GardenaiLocal.dll
+GardenaiLocal.pdb
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Scripts cache or output (optional)
+*.sh~
+
+# Model data (if user downloads models to this folder)
+models/
+*.bin
+*.ckpt
+
+# Environment
+.env
+.env.*
+
+# Node/npm (if you ever use any JavaScript tooling)
+node_modules/
+
+# Ollama (if user puts ollama files in your tree, but NOT ~/.ollama which is in home)
+ollama/
+
+# Build and debug
+*.db
+*.bak
+*.swp
+*.tmp
